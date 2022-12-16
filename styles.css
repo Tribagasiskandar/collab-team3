@@ -1,0 +1,33 @@
+.about__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 2em;
+
+  background-color: #eceeef;
+  border-radius: 6px;
+}
+
+.cta__desc {
+  flex: 1;
+}
+
+.cta__img__container {
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.cta__img {
+  max-width: 350px;
+  border-radius: 12px;
+}
