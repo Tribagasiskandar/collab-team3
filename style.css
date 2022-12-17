@@ -1,0 +1,83 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 90%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.started a{
+    background-color: rgb(14,162,189);
+    padding:13px 32px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    display: inline-block;
+}
+.mt{
+    margin-top: 80px;
+}
+header{
+  background-color: rgb(176, 243, 255);
+  height: 500px;
+}
+h1,h2,h3,h4,h5{
+    line-height: 120%;
+}
+p{
+    line-height: 160%;
+}
+.hero-kiri{
+    width: 47%;
+    margin: 1%;
+}
+.hero-kiri h1{
+    font-size: 3em;
+    color: rgb(14,162,189);
+}
+.hero-kiri p{
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+}
+.hero-kiri a{
+    background-color: rgb(14,162,189);
+    padding:13px 32px;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    display: inline-block;
+}
+.hero-kanan{
+    width: 41%;
+    margin: 1%;
+}
+.item{
+    width: 22%;
+    margin: 1%;
+    padding: 5px;
+    border: 1px solid wheat;
+    box-shadow: 5px 5px rgb(176, 243, 255);
+}
