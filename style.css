@@ -68,10 +68,12 @@ p {
 }
 .hero-kiri p {
   color: rgb(59, 59, 59);
+  margin-top: 10px;
   font-size: 18px;
 }
 .hero-kiri a {
   background-color: rgb(14, 162, 189);
+  margin-top: 20px;
   padding: 13px 32px;
   text-decoration: none;
   color: white;
