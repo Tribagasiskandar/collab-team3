@@ -284,8 +284,9 @@ p {
   .about-text {
       width: 700px;
       position: absolute;
-      right: 100px;
-      bottom: 170px;
+      left: 500px;
+      right: 0px;
+      bottom: 420px;
       color: rgb(18, 70, 0);
 
   }
@@ -296,6 +297,7 @@ p {
   }
 
   .main {
+      position: relative;
       width: 1000px;
       max-width: 95%;
       box-sizing: border-box;
@@ -317,6 +319,7 @@ p {
       position: relative;
       left: 100px;
       background-color: white;
+      justify-content: space-between;
       
   }
   .oracle {
