@@ -205,3 +205,30 @@ p {
   border-radius: 4px;
   cursor: pointer;
 }
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1893a8;
+  color: white;                   
+}
+.h1{
+  text-align: center;
+}
+.p1{
+  padding-left: 40px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  width: 75%;
+}
+.column {
+  margin-left: 45px;
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
