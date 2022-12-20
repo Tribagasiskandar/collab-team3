@@ -1,0 +1,419 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 90%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.started a {
+  background-color: rgb(14, 162, 189);
+  padding: 13px 32px;
+  text-decoration: none;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 5px;
+  display: inline-block;
+}
+.mt {
+  margin-top: 80px;
+}
+header {
+  background-color: rgb(176, 243, 255);
+  height: 500px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 120%;
+}
+p {
+  line-height: 160%;
+}
+.hero-kiri {
+  width: 47%;
+  margin: 1%;
+}
+.hero-kiri h1 {
+  font-size: 3em;
+  color: rgb(14, 162, 189);
+}
+.hero-kiri p {
+  color: rgb(59, 59, 59);
+  margin-top: 10px;
+  font-size: 18px;
+}
+.hero-kiri a {
+  background-color: rgb(14, 162, 189);
+  margin-top: 20px;
+  padding: 13px 32px;
+  text-decoration: none;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 5px;
+  display: inline-block;
+}
+.hero-kanan {
+  width: 41%;
+  margin: 1%;
+}
+.item {
+  width: 22%;
+  margin: 1%;
+  padding: 5px;
+  border: 1px solid wheat;
+  box-shadow: 5px 5px rgb(176, 243, 255);
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  margin-top: 5rem;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 2em 5em;
+
+  background-color: #eceeef;
+  border-radius: 24px;
+}
+
+.cta__desc {
+  flex: 0.8;
+}
+
+.cta__desc h2 {
+  color: #485664;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.cta__desc p {
+  color: #485664;
+  font-size: 1.5rem;
+
+  margin-top: 2rem;
+}
+
+.cta__button {
+  background-color: #1893a8;
+  color: white;
+
+  padding: 1em 2em;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cta__img-container {
+  display: flex;
+  justify-content: center;
+  flex: 0.5;
+}
+
+.cta__img {
+  max-width: 350px;
+  border-radius: 12px;
+}
+
+.about-video {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 5rem;
+
+  background-color: #2c343b;
+  color: white;
+}
+
+.about-video__img-container {
+  display: flex;
+  justify-content: start;
+  flex: 1;
+}
+
+.about-video__img {
+  max-width: 100%;
+}
+
+.about-video__desc {
+  flex: 1;
+
+  padding: 2em 5em;
+}
+
+.about-video__desc h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.about-video__desc p {
+  font-size: 1.5rem;
+  font-style: italic;
+
+  margin-top: 2rem;
+}
+
+.about-video__desc ul {
+  list-style: none;
+
+  margin-top: 2rem;
+}
+
+.about-video__button {
+  background-color: #1893a8;
+  color: white;
+
+  padding: 1em 2em;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1893a8;
+  color: white;                   
+}
+.h1{
+  text-align: center;
+}
+.p1{
+  padding-left: 40px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  width: 75%;
+}
+.column {
+  margin-left: 45px;
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+  }
+
+  .about-us {
+      width: 100%;
+      padding: 10px 0;
+      background-color: #b4f0ff;
+      font-size: 5mm;
+  }
+
+  .text {
+      width: 800px;
+      text-align: center;
+      padding-bottom: 40px;
+  }
+
+
+  .first {
+      width: 100%;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+
+  .describe {
+      width: 100%;
+      top: 100px;
+      padding: 80px 0px;
+      background-color: rgb(158, 212, 227);
+  }
+
+  .describe img {
+      position: relative;
+      bottom: 0px;
+      top: 50%;
+      right: 400px;
+      height: auto;
+      width: 400px;
+
+  }
+
+  .about-text {
+      width: 700px;
+      position: absolute;
+      left: 500px;
+      right: 0px;
+      bottom: 420px;
+      color: rgb(18, 70, 0);
+
+  }
+
+  .about-text button {
+      position: absolute;
+      top: 515px;
+  }
+
+  .main {
+      position: relative;
+      width: 1000px;
+      max-width: 95%;
+      box-sizing: border-box;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .describe-text p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+
+  .photo {
+      position: relative;
+      left: 100px;
+      background-color: white;
+      justify-content: space-between;
+      
+  }
+  .oracle {
+      position: relative;
+      width: 300px;
+      left: 100px;
+  }
+
+  .microsoft {
+      position: relative;
+      width: 300px;
+      left: 70px;
+      bottom: 30px;
+  }
+
+  .indosat {
+      position: relative;
+      width: 300px;
+      bottom: 15px;
+  }
+
+  .ibm {
+      position: relative;
+      width: 400px;
+      left: 40px;
+  }
+
+  .product1 {
+      font-size: 7mm;
+      color: aliceblue;
+      position: absolute;
+      right: 0px;
+      top: 120px;
+      border: 20px solid #006000;
+      background-color: #006000;
+  }
+
+  .product2 {
+      font-size: 7mm;
+      color: aliceblue;
+      top: 120px;
+      position: absolute;
+      right: 413px;
+      border: 20px solid #006000;
+      background-color: #006000;
+  }
+
+  .product3{
+      font-size: 6.7mm;
+      color: aliceblue;
+      position: absolute;
+      right: 470px;
+      top: 230px;
+      border: 20px solid #006000;
+      background-color: #006000;
+
+  }
+
+
+
+  .product4 {
+      font-size: 7mm;
+      color: aliceblue;
+      position: absolute;
+      right: 45px;
+      top: 230px;
+      border: 20px solid #006000;
+      background-color: #006000;
+
+
+  }
+
+
+  .product5 {
+      font-size: 7mm;
+      color: aliceblue;
+      position: absolute;
+      right: 480px;
+      top: 350px;
+      border: 20px solid #006000;
+      background-color: #006000;
+      text-align: center;
+
+  }
+
+  .product6 {
+      font-size: 7mm;
+      color: aliceblue;
+      position: absolute;
+      right: 18px;
+      top: 350px;
+      border: 20px solid #006000;
+      background-color: #006000;
+
+  }
